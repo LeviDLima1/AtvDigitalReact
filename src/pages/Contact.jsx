@@ -33,7 +33,7 @@ export default function Contact() {
                         <textarea id="message" name="message" className="bg-white rounded border px-2 py-1" required></textarea>
                     </div>
                     <div>
-                        <button id="bnt" type="submit" onClick={Done} className="bg-sky-500 px-3 py-1 rounded-lg border-r border-b focus:bg-sky-300 transition-all cursor-pointer hover:scale-110 hover:bg-sky-400">Enviar</button>
+                        <button id="bnt" onClick={Done} className="bg-sky-500 px-3 py-1 rounded-lg border-r border-b focus:bg-sky-300 transition-all cursor-pointer hover:scale-110 hover:bg-sky-400">Enviar</button>
                     </div>
                 </form>
             </div>
