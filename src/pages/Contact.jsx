@@ -5,7 +5,7 @@ export default function Contact() {
     function Done() {
         event.addEventListener('click', function () {
             
-            alert('Mensagem enviada com sucesso!' + name + email + message);
+            alert('Mensagem enviada com sucesso!');
             // Realizar chamada de API para envio de dados
         });
     }
